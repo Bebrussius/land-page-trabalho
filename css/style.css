@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Primeiro plano de fundo */
+#background-carreira {
+    height: 600px;
+    width: 100vw;
+    background: linear-gradient(77.64deg, #1d1f27 84.01%, #e31c79 104.56%), linear-gradient(#e31c79, #e31c79), #fff;
+    background-blend-mode: darken, normal, normal;
+}
+
+#title-logo {
+    display: flex;
+    justify-content: center;
+}
+
+#title-logo h1 {
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+}
+
+#caixa {
+    width: 475px;
+    border-radius: 10px;
+    margin-left: 30px;
+    color: #1d1f27;
+}
+
+#title-carreira {
+    display: flex;
+    justify-content: center;
+}
+
+#title-carreira h1 {
+    font-size: 38px;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+}
+
+#title-carreira h2 {
+    font-size: 38px;
+    font-family: 'Open Sans', sans-serif;
+    justify-content: center;
+    color: #e31c79;
+}
+
+#title-carreira p {
+    font-size: 12px;
+    color: #fff;
+    line-height: 23px;
+}
+
+#carreira-video {
+    width: 475px;
+    height: 270px;
+    background-color: #fff;
+    background: #fff;
+    border: 4px solid #e31c79;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+
+#carreira-video h1 {
+    color: #000;
+}
+
+#title-carreira button {
+    width: 249.97px;
+    height: 41px;
+    background: #E31C79;
+    color: #fff;
+    border-radius: 82px;
+}
+
+#title-icons {
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+}
+
+#title-icons-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title-icons img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 1vh;
+}
+
+#title-icons h2 {
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+}
+
+/* Segundo plano de fundo*/
+
+#background-seguir-carreira {
+    width: 100vw;
+    height: 870px;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+}
+
+#background-seguir-carreira #box {
+    box-sizing: border-box;
+
+    width: 507.05px;
+    height: 233.13px;
+    left: 960px;
+    top: 643px;
+
+    background: #000000;
+    border: 1px solid #E31C79;
+    border-radius: 20px;
+
+    display: flex;
+
+    margin-top: 5vh;
+}
+
+#background-seguir-carreira #img {
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+#background-seguir-carreira #box h1 {
+    font-size: 18px;
+    margin-top: 3%;
+    color: #e31c79;
+}
+
+#background-seguir-carreira #box p {
+    font-size: 12px;
+    color: #fff;
+    line-height: 25px;
+}
+
+#box-garota-computando h1 {
+    font-weight: 400;
+    color: #E31C79;
+    font-family: 'Russo one';
+    margin-top: 25vh;
+}
+
+/* Terceiro plano de fundo */
+
+#background-resultados {
+    background-color: #1d1f27;
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+}
+#box-background-resultados {
+    display: flex;
+    justify-content: center;
+    gap: 5vw;
+    margin-bottom: 5vh;
+}
+#background-resultados h1 {
+    color: #e31c79;
+    font-family: 'Russo one';
+    font-size: 18px;
+    width: 20vw;
+    text-align: center;
+    margin: auto;
+    margin-top: 5vh;
+}
+
+/* Quarto plano de fundo */
+
+#background-carreira-salario {
+    height: 510px;
+    width: 100vw;
+    background-color: #000;
+}
+.container-salario {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    gap: 10vw;
+}
+#background-carreira-salario h1{
+    color: #e31c79;
+    font-family: 'Russo one';
+    font-size: 42px;
+    margin-bottom: 5vh;
+}
+#background-carreira-salario p {
+    color: #fff;
+    line-height: 3vh;
+    font-weight: 100;
+}
+#background-carreira-salario h2{
+    color: #e31c79;
+    font-family: 'Russo one';
+    font-size: 32px;
+    margin-bottom: 5vh;
+}
+
+/* Quinto plano de fundo */
+
+#background-carreira-conteudo {
+    height: 1800px;
+    width: 100vw;
+    background-color: #1d1f27;
+    display: flex;
+    text-align: center;
+}
+
+#background-carreira-conteudo #title h1 {
+    color: #e31c79;
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+#background-carreira-conteudo #box {
+    background-color: #fff;
+    border-radius: 10px;
+    width: 25vw;
+    height: 20vh;
+}
+
+#background-carreira-conteudo #box h1 {
+    color: #e31c79;
+    font-size: 65px;
+    font-weight: 600;
+    margin-top: 3vh;
+}
+
+#background-carreira-conteudo #box h2 {
+    color:#00239C;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#background-carreira-conteudo .container-2 {
+    background-color: #fff;
+    border-radius: 10px;
+    height: auto;
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#background-carreira-conteudo .container-2 .row {
+    border: 1px solid rgba(58, 89, 123, 0.18);
+    width: 90%;
+}
+
+#background-carreira-conteudo #box2 {
+    display: flex;
+}
+
+#background-carreira-conteudo #box2 img{
+    width: 15px;
+    height: 15px;
+    align-self: center;
+}
+
+#background-carreira-conteudo #box2 p{
+    color: #48678A;
+    font-size: 12px;
+    margin-bottom: 3vh;
+    margin-top: 3vh;
+    margin-left: 1vw;
+}
+
+#background-carreira-conteudo .container-3 h1{
+    color: #fff;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+#background-carreira-conteudo .container-3 .row{
+    justify-content: space-around;
+    margin-bottom: 5vh;
+}
+#background-carreira-conteudo #video-container-3 {
+    background-color: #000;
+    height: 300px;
+    width: 40vw;
+}
+#background-carreira-conteudo #video-container-3 p{
+    color: #fff;
+    align-self: center;
+    justify-content: center;
+}
+
+
+
+
+
